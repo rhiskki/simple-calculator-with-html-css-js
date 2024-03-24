@@ -1,0 +1,188 @@
+button{
+    height: 30px;
+    margin-top: 10px;   
+    padding-left: 10px; 
+    padding-right: 10px;
+    padding-bottom: 40px;
+    border-radius: 30%;
+    transition: 0.2s;
+    
+}
+
+.f1{
+    font-family:system-ui;
+    color: #f1f1ec;
+}
+
+
+
+.empty{
+    width: 345px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: white;
+    animation-name: texter;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    height: 10px;
+    margin-top: 90px;
+}
+
+
+
+
+@keyframes texter{
+    0%{
+        width: 1px;
+    }
+
+    5%{
+        width: 10px;
+    }
+
+   10%{
+    width: 30px; 
+   }
+
+   20%{
+    width: 50px;
+   }
+
+   30%{
+    width: 70px;
+   }
+
+      40% {
+        width: 100px;
+      }
+
+      50%{
+        width: 150px;
+      }
+
+      60%{
+        width: 200px;
+      }
+
+      70% {
+        width: 250px;
+      }
+
+      80%{
+        width: 320px;
+      }
+
+      90%{
+        width: 340px;
+      }
+      100% {
+        width: 350px;
+        
+      }
+
+}
+
+
+.button:hover{
+	cursor: pointer;
+	border: 3px solid rgb(103, 9, 255);
+	width: 50px;
+	font-size: inherit;
+	padding-top: 10px;
+} 
+
+.last-div{
+    margin-bottom: 10px;
+}
+
+body{
+    background-color: rgb(15, 9, 9);
+}
+
+
+.text{
+    padding-left: 170px;
+    padding-top : 40px;
+    font-family: monospace;
+    color: rgb(1, 3, 15);
+}
+
+.button{
+    width: 40px;
+    margin-left: 10px;
+    background-color: rgb(245, 237, 124);
+    color: rgb(24, 15, 13);
+    cursor: pointer;  
+    font-size: 30px;  
+   
+}
+
+
+.main{
+    background-color: rgba(8, 8, 8, 0.9);
+    border-radius: 15px;
+    height: 600px;
+    width: 350px;
+    margin: auto;
+    overflow: hidden;
+   
+}
+
+.ans{
+    font-size: 20px;
+    font-family: monospace;
+    margin-top: 50px;
+    font-style: italic;
+    
+   
+}
+
+input{
+    width: 100px;
+    height: 25px;
+    font-size: 25px;
+    color: black;
+}
+
+.h1_txt{
+    font-size: 30px;
+    text-align: center;
+    font-family: cursive;
+    color: rgb(109, 151, 185);
+    font-style: oblique;
+    
+}
+
+span{
+   color:rgb(18, 253, 253);
+}
+
+.firstText{
+    color: white;
+}
+
+
+input{
+    background-color: rgb(255, 255, 255);
+}
+
+#input1{
+    margin-bottom: 10px;;
+}
+
+.label_txt{
+    color:beige;
+}
+
+::placeholder{
+    color: rgb(160, 135, 135);
+    font-style: italic;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.ops{
+    margin-left: 60px;
+}
+
